@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Justin Page: Home</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="favicon.png">
+		<style>
+			html,
+			body {
+				height: 100%;
+				background-color: #b4d0e7;
+			}
+
+			.parent {
+				display: grid;
+				place-items: center;
+				height: 100%;
+			}
+
+			.child {
+				width: 50%;
+				background-color: #dcd3ea;
+				padding: 2rem;
+				border: 20px solid #cea76f;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 2rem;
+				color: #1c1c1c;
+				text-align: left;
+			}
+			@media (max-width: 800px) {
+				.child {
+					font-size: 1.5rem;
+				}
+
+			}
+			@media (max-width: 500px) {
+				.child {
+					width: unset;
+				}
+
+			}
+		</style>
+	</head>
+	<body>
+		<div class="parent">
+			<div class="child">
+				Hello, I am an engineer with a focus on building software that
+				is adaptable to constant change. Building solutions that are
+				small and incremental. Software that is guided by change and
+				embraces automation. 🌵
+				<br><br> Check out <a href="https://github.com/justinpage" target="_blank">github.com</a> for more info! </div>
+		</div>
+	</body>
+</html>
